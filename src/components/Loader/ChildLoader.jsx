@@ -16,7 +16,7 @@ const ChildLoader = () => {
     });
   });
   return (
-    <div ref={lineRef} className="h-2 w-0 bg-purple-500 fixed rounded-md"></div>
+    <div ref={lineRef} className="h-1 w-0 bg-white fixed rounded-md"></div>
   );
 };
 
