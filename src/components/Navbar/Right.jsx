@@ -2,7 +2,7 @@ import React from 'react'
 
 const Right = () => {
   return (
-    <div>Menu</div>
+    <div className='uppercase text-[0.6rem]'>Menu</div>
   )
 }
 

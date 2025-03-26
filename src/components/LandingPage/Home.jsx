@@ -14,13 +14,16 @@ const Home = () => {
       y: "-100%",
       //   opacity: 0,
       delay: 2,
-      duration: 1,
+      duration: 1.5,
+      ease: "expo.inOut"
     });
 
     gsap.from(heroRef.current, {
       scale: 1.05,
       delay: 2.1,
       duration: 1,
+      opacity: 0,
+      y:50,
     });
   });
   return (
